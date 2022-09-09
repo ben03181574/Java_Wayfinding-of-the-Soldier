@@ -10,11 +10,10 @@ Implementing Soldier's Path Visit with BFS, DFS, and UCS Algorithms
 而此外移動的路徑要改以 linked list 儲存，如果目的地無法到達則不移動。  
 
 ## 使用說明（Instructions for use）：
-在編譯完成後，可以於 Command Line 上輸入 “java –cp “/home/driver/post-gresql-42.2.23.jar”:./: A1083341_checkpoint3 0 4 2”  
-後方之數字為欲載入的地圖編號以及地圖縮放程度和演算法編號。  
+在編譯完成後，可以於 Command Line 上輸入 “java –cp “/home/driver/post-gresql-42.2.23.jar”:./: A1083341_checkpoint3 0 4 2”後方之數字為欲載入的地圖編號以及地圖縮放程度和演算法編號。  
 輸入 Enter 後，會顯示地圖以及障礙物圖片。  
 後方的-cp 為設定其 classpath，告訴系統找不到 package 時，可以尋找的路徑，”./”指主目錄，而在 linux 中冒號為分隔符（windows 則為分號）。  
-此外使用者可以按鍵以及點擊螢幕以產生不同類型的房屋，如果按下 ‘ b ‘ 則建立 1 * 1 的軍營，如果按下 ‘ h ’ 則建立 1 * 1 的普通房子，其他則建立 2*2 的金字塔。  
+此外使用者可以按鍵以及點擊螢幕以產生不同類型的房屋，如果按下 ‘ b ‘ 則建立 1 * 1 的軍營，如果按下 ‘ h ’ 則建立 1 * 1 的普通房子，其他則建立 2 * 2 的金字塔。  
 
 
 ## OOP的考量（The consideration of Object-Oriented Programing）
