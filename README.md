@@ -21,7 +21,7 @@ Implementing Soldier's Path Visit with BFS, DFS, and UCS Algorithms
 ```
 
 ## OOP的考量（The consideration of Object-Oriented Programing）
-```
+
 * A1083341_ checkpoint4_QueryDB：
   * 將障礙物位置資訊以及障礙物的樣式和照片路徑查詢出來後將值存入物件變數以及 ArrayList 和 hashmap。
 * A1083341_ checkpoint4_GamePanel：
@@ -58,4 +58,4 @@ Implementing Soldier's Path Visit with BFS, DFS, and UCS Algorithms
   * 此類別為為了找出路經。其設有搜尋、拓展方法，以上兩種方法為為了實作出個演算法所需之操作。而 createRoute 方法則是將搜尋到之路徑以鏈結串列形式回傳。
 * A1083341_checkpoint6_RouteLinkedList：
   *此類別為讓士兵能根據此鏈結串列來得知移動步驟，設有新增、刪除、插入、回傳長度、以及設定及獲取 head 的方法。
-```
+
