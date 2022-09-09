@@ -1,6 +1,10 @@
 # Java_Wayfinding-of-the-Soldier
 Implementing Soldier's Path Visit with BFS, DFS, and UCS Algorithms
 
+## 遊戲預覽
+![image](https://user-images.githubusercontent.com/61927641/189267435-d9948980-6cc9-4403-971b-8b93acc265f4.png)
+> 左至右分別為士兵以DFS、BFS以及UCS尋路走訪
+
 ## 功能設計（Design of functionality）
 ```
 藉由讀取資料庫並在地圖上擺放物件，同時能利用滑鼠達到拖動地圖的效果，最後再透過在命令列輸入不同指令的情況下產出不同的結果。  
@@ -58,4 +62,3 @@ Implementing Soldier's Path Visit with BFS, DFS, and UCS Algorithms
   * 此類別為為了找出路經。其設有搜尋、拓展方法，以上兩種方法為為了實作出個演算法所需之操作。而 createRoute 方法則是將搜尋到之路徑以鏈結串列形式回傳。
 * A1083341_checkpoint6_RouteLinkedList：
   * 此類別為讓士兵能根據此鏈結串列來得知移動步驟，設有新增、刪除、插入、回傳長度、以及設定及獲取 head 的方法。
-
