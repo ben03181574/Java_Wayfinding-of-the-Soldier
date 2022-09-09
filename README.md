@@ -40,3 +40,9 @@ Implementing Soldier's Path Visit with BFS, DFS, and UCS Algorithms
   * 此類別為為了實作出 DFS 之演算法。
 * A1083341_checkpoint6_Fringe：
   * 以上三種類別皆實作此介面，設有新增、刪除、判斷是否為空之方法。
+* A1083341_checkpoint6_Node：
+  * 此類別存有目前之位置以及下一個 Node 的物件。設有獲取以及設定以上料之方法
+* A1083341_checkpoint6_RouteFinder：
+  * 此類別為為了找出路經。其設有搜尋、拓展方法，以上兩種方法為為了實作出個演算法所需之操作。而 createRoute 方法則是將搜尋到之路徑以鏈結串列形式回傳。
+* A1083341_checkpoint6_RouteLinkedList：
+  *此類別為讓士兵能根據此鏈結串列來得知移動步驟，設有新增、刪除、插入、回傳長度、以及設定及獲取 head 的方法。
