@@ -1,7 +1,7 @@
 # Java_Wayfinding-of-the-Soldier
 Implementing Soldier's Path Visit with BFS, DFS, and UCS Algorithms
 
-# 功能設計
+## 功能設計
 藉由讀取資料庫並在地圖上擺放物件，且須能利用滑鼠達到拖動地圖的功能，另外也需要在命令列輸入不同指令的情況下產出結果。
 此外，須能利用滑鼠點擊及鍵盤按鍵以選擇達到在地圖上創建不同建築物物件的功能，
 創建房屋時需判斷滑鼠點擊位置是否合法能創建房屋，並且利用滑鼠點擊創建多個執行緒，藉此達到可一次蓋不同的房子，
